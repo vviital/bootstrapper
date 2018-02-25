@@ -1,0 +1,22 @@
+{
+  "extends": "airbnb-base/legacy",
+  "parser": "babel-eslint",
+  "rules": {
+    "padded-blocks": 0,
+    "no-confusing-arrow": 0,
+    "no-console": 0,
+    "global-require": 0,
+    "no-underscore-dangle": 0,
+    "new-cap": 0,
+    "comma-dangle": 0,
+    "no-plusplus": 0,
+    "object-curly-newline": 0,
+    "camelcase": 1
+  },
+  "env": {
+    "jest": true
+  },
+  "globals": {
+    "Promise": true
+  }
+}
