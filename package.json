@@ -1,5 +1,5 @@
 {
-  "name": "bootstrapper",
+  "name": "@vviital/bootstrapper",
   "version": "1.0.3",
   "author": "vviital <vviital@tut.by>",
   "license": "MIT",
@@ -9,7 +9,7 @@
   "scripts": {
     "build": "rm -rf dist && mkdir -p dist/templates && babel src -d dist && cp -r templates dist/",
     "start": "babel-node src/index.js",
-    "preinstall": "npm build"
+    "prepublish": "npm run build"
   },
   "babel": {
     "presets": [
